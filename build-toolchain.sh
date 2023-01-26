@@ -8,7 +8,7 @@ function msg() {
 # Build LLVM
 msg "Building LLVM..."
 ./build-llvm.py \
-	--clang-vendor "Crepusuclar" \
+	--clang-vendor "Hana" \
 	--targets "ARM;AArch64;X86" \
 	--pgo kernel-defconfig \
 	--lto thin
