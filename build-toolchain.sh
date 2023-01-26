@@ -11,7 +11,8 @@ msg "Building LLVM..."
 	--clang-vendor "Hana" \
 	--targets "ARM;AArch64;X86" \
 	--pgo kernel-defconfig \
-	--lto thin
+	--lto thin \
+	--use-good-revision
 
 # Build binutils
 msg "Building binutils..."
