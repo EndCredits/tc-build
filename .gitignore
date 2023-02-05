@@ -3,3 +3,5 @@
 *.pyc
 llvm-project/
 build/
+binutils-*
+kernel/
